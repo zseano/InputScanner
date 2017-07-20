@@ -36,7 +36,12 @@ Once the scanner is complete you will be given 4 txt file outputs (see below). U
 - POSTData-output.txt contains post data. (param1=xss"&param2=xss"&param3=xss")
 
 # Modifying the script
-Feel free to modify how you see fit. Some code is sloppy in areas I know. If you need to be authenticated for scraping urls, or you need certain headers, you can modify the file_get_html function found in file-dom.php
+Feel free to modify how you see fit. Some code is sloppy in areas I know. If you need to be authenticated for scraping urls, or you need certain headers, you can modify the file_get_html function found in file-dom.php.
+
+I have error_reporting set to (0), the default_socket_timeout set to 5 and max_execution_time set to 900. Modify these how you see fit (it works fine on my setup).
+
+# Problems/Improvements
+If you have any problems you can reach me on twitter as @zseano. 
 
 # Final remarks
 This tool may generate noise. Use wisely. I am not responsible for how you use this tool!
