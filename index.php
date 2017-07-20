@@ -1,6 +1,6 @@
 <?php
 /*
-** zScanner v1.0 | Stay up to date with tools & updates on zseano.com!
+** InputScanner v1.0 | Stay up to date with tools & updates on zseano.com!
 ** Code written by Sean R (@zseano) & Karl R
 
 ** SimpleHTMLDom authors:
