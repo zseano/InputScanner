@@ -220,8 +220,7 @@ if ($run == '1') {
 	$payloads = loadData(PAYLOAD_FILE);
 	?>
 	<br>
-	GET request outputs are saved to <font color='cyan'>GET-output.txt</font> in the /outputs/ directory.<br>
-	POST request outputs are saved to <font color='cyan'>POSTData-output.txt</font> and <font color='cyan'>POSTHost-output.txt</font> in the /outputs/ directory.
+	All outputs are saved in the /outputs/ directory.
 	<br><br><font color="red">Note:</font> This script does NOT follow redirects. Input hard coded URLS to scan!
 	<br><br>
 	<input type="hidden" name="run" value="1">
