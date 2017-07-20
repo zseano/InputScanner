@@ -2,7 +2,7 @@
 A tool designed to scrape a list of URLs and scrape input names (id if no name is found). This tool will also scrape .js urls found on each page (for further testing). This tool was presented at the Bugcrowd LevelUp conference, and the talk can be found here: https://www.youtube.com/watch?v=BEaMhs9LmoY&feature=youtu.be&list=PLIK9nm3mu-S5InvR-myOS7hnae8w4EPFV.
 
 # What's needed
-- Somewhere to run PHP. I've tested this on PHP 7.1.7 and I recommend running XAMPP locally so you can just run the PHP from your computer locally. You can grab XAMPP from here: https://www.apachefriends.org/index.html. 
+- Somewhere to run PHP. I've tested this on PHP 7.1.7 and I recommend running XAMPP locally so you can just run the PHP from your computer locally. You can grab XAMPP from here: https://www.apachefriends.org/index.html. If you run into any issues with using older versions of PHP, modify the file_get_html function (in file-dom.php) and change **$contents = file_get_contents($url, $use_include_path, $context);** to **$contents = file_get_contents($url, $use_include_path, $context, $offset);** (should fix issue. If not, message me)
 - Some PHP knowledge if you wish to modify the script
 - BURP Pro license is ideal, but not needed.
 
