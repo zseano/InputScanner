@@ -28,7 +28,7 @@ Once the scanner is complete you will be given 4 txt file outputs (see below). U
 
 # Outputs?
 
-4 files are outputted. JS-output.txt, GET-output.txt, POSTHost-output.txt, POSTData-output.txt
+4 files are outputted in the /outputs/ folder: JS-output.txt, GET-output.txt, POSTHost-output.txt, POSTData-output.txt.
 
 - GET-output.txt is a file which can be easily imported into a BURP intruder attack (using the Spider type). Set the position in the header (GET §val§ HTTP/1.0) and run the attack. Make sure to play with settings and untick "URL-encode these characters", found on the Payloads tab. Currently the script will echo the HOST url, and I just mass-replace in a text editor such as Sublime. (Replace to null). You are free to modify the script for how you see fit.
 - JS-output.xt contains a list of .js urls found on each page. The format is found@https://www.example.com/|https://www.example.com/eg.js|, and this is so you can easily load it into JS-Scan (another tool released by me) and it will let you know where each .js file was found as it scrapes. 
