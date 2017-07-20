@@ -26,7 +26,7 @@ Once the scanner is complete you will be given 4 txt file outputs (see below). U
 ![Example](https://i.imgur.com/rOiLZrU.png "Copy urls")
 
 
-# Outputs?
+# Outputs
 
 4 files are outputted in the /outputs/ folder: JS-output.txt, GET-output.txt, POSTHost-output.txt, POSTData-output.txt.
 
