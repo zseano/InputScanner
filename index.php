@@ -148,6 +148,10 @@ function processUrls($urls, $payloads)
 	echo "<br><br><hr class='style1'><font color='#46FF06'>".$success."</font> valid endpoints";
 	echo "<br><font color='red'>".$failed."</font> endpoints failed<br>";
 	echo "<br><font color='white'><b>Outputs are ready to be imported to BURP Intruder!</b></font>";
+	echo "<br><font color='white'><b>GET-Outputs - <a href='/outputs/GET-output.txt'>Here</a></b></font>";
+	echo "<br><font color='white'><b>JS-Outputs - <a href='/outputs/JS-output.txt'>Here</a></b></font>";
+	echo "<br><font color='white'><b>POSTData-Outputs - <a href='/outputs/POSTData-output.txt'>Here</a></b></font>";
+	echo "<br><font color='white'><b>PostHost - <a href='/outputs/POSTHost-output.txt'>Here</a></b></font>";
 }
 
 function saveStuff($fPayload, $fpPayload, $pUrls,$sParams) {
